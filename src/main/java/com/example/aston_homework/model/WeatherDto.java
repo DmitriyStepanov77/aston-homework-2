@@ -3,9 +3,8 @@ package com.example.aston_homework.model;
 import lombok.Data;
 import lombok.experimental.Delegate;
 
-import java.time.LocalDateTime;
 @Data
-public class Weather {
+public class WeatherDto {
 
     @Delegate
     private Request request;
